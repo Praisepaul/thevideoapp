@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Session Ended</title>
+</head>
+<body>
+  <center><div>
+    <center><h1>Are you sure to end this session?</h1></center><br>
+    <a href="thanku.html" target="_blank" onclick="windowClose()"><button style=" border: ridge 5px white; text-align: center;background: red; color: white; border-radius: 50px;width: 75px;height: 40px;">Yes</button></a>
+    <button onclick="windowBack()" style="border: ridge 5px white;background: green; color: white; border-radius: 50px;width: 75px;height: 40px;">Cancel</button>
+  </div>
+  </center>
+  <script>
+    function windowClose(){
+      location.replace("thanku.html")
+    }
+  </script>
+  <script>
+    function windowBack(){
+    window.history.back();
+    }
+  </script>
+</body>
+</html>
